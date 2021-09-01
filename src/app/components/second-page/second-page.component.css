@@ -1,0 +1,101 @@
+table {
+  width: 100%;
+
+}
+table td,
+th {
+  border-bottom: 1px solid gray;
+}
+.statuscss {
+  width: 100px;
+  border-radius: 6px;
+  border: none;
+  padding: 6px 8px;
+}
+table th {
+  padding: 5px;
+}
+table td {
+  padding-right: 15px;
+}
+.search {
+  margin-top: 10px;
+  width: 30%;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  border: 0.5px solid gray;
+}
+
+.selectclass {
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 15%;
+  height: 33px;
+  border-radius: 3px;
+  border: none;
+  border: 0.5px solid gray;
+}
+
+.twoform {
+  background-color: white;
+  display: flex;
+  width: auto;
+
+  
+}
+.twoformContainer {
+  display: flex;
+  width: 1000%;
+  background-color: white;
+  border-bottom: 1px solid black;
+  padding-bottom: 7px;
+  padding-left: 12px;
+ 
+}
+.text {
+  font-size: 10px;
+  position: relative;
+  top: 10px;
+}
+.maincontainer {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.DashboardContainer{
+
+  margin-left: 225px;
+  width: 100%;
+  
+
+}
+.row{
+  display: flex;
+
+  flex-wrap: wrap;
+
+
+}
+
+.dashboard{
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #6036D8;
+  border: none;
+  color: white;
+  padding: 12px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 48px;
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .maincontainer{
+    display: block;
+  }
+}

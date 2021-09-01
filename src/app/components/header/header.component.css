@@ -1,0 +1,32 @@
+.example-spacer {
+    flex: 1 1 auto;
+    
+  }
+h1{
+    font-size:x-large;
+    padding: 5px;
+}
+.toolbar{
+    background-color: white;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    
+    
+}
+
+.example-icon{
+    border-style: none;
+    background: transparent;  
+    
+}
+.user-nav{
+    font-size: 15px;
+    color: #696969;
+}
+
+.nav-icons{
+    font-size: 25px;
+    margin: 5px;
+    color: #696969;
+    cursor: pointer;
+}

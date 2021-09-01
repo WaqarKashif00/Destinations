@@ -1,0 +1,49 @@
+
+.dashboard{
+    margin-top: 20px;
+}
+
+
+.btn {
+    background-color: #6036D8;
+    border: none;
+    color: white;
+    padding: 12px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 48px;
+  }
+
+  .dashboardclasss{
+    font-size: 17px;
+    color: #3C3D3E;
+  }
+  .row{
+      display: flex;
+  
+      flex-wrap: wrap;
+    
+   
+  }
+  .col{
+    width: 250px;
+    
+    padding-left: 15px;
+  }
+  .maincontainer{
+    display: flex;
+  }
+  .DashboardContainer{
+
+    margin-left: 210px;
+    width: 100%;
+
+  }
+
+
+  @media screen and (max-width: 576px) {
+    .maincontainer{
+      display: block;
+    }
+  }
