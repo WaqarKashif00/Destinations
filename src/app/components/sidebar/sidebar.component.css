@@ -4,15 +4,24 @@
     list-style: none;
     text-decoration: none;
 }
-.sidebar{
+/* .sidebar{
     position: fixed;
     width: 200px;
     height: 85%;
     background-color: white;
     border-top: 3px solid white;
     transition: all .4 ease;
+} */
+.sidebar{
+    position: absolute;
+    top: 56px;
+    left: -250px;
+    width: 200px;
+    height: 90%;
+    background-color: white;
+    border-top: 3px solid white;
+    transition: all .4 ease;
 }
-
 .sidebar ul a{
     display: block;
     height: 100%;

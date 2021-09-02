@@ -10,7 +10,6 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { MainpageComponent } from './components/mainpage/mainpage.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { CardsComponent } from './components/cards/cards.component';
 import {AccordionModule} from 'primeng/accordion';
 import { SecondPageComponent } from './components/second-page/second-page.component';    
 import {FormsModule} from '@angular/forms';
@@ -27,7 +26,6 @@ import { MatTableModule } from '@angular/material/table'
     HeaderComponent,
     SidebarComponent,
     MainpageComponent,
-    CardsComponent,
     SecondPageComponent,
   ],
   imports: [
