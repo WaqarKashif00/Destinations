@@ -2,10 +2,11 @@ table {
   width: 100%;
 
 }
-table td,
-th {
-  border-bottom: 1px solid gray;
+table td,th {
+  border-bottom: 1px solid #F2F2F2;
+ 
 }
+
 .statuscss {
   width: 100px;
   border-radius: 6px;
@@ -24,19 +25,30 @@ table td {
   height: 30px;
   border-radius: 3px;
   border: none;
-  border: 0.5px solid gray;
+  border: 0.5px solid #C4C4C4;
 }
 
 .selectclass {
-  margin-top: 10px;
+
   margin-left: 5px;
+  margin-top: 10px;
   width: 15%;
-  height: 33px;
+  height: 30px;
   border-radius: 3px;
   border: none;
-  border: 0.5px solid gray;
+  border: 0.5px solid #C4C4C4;
+  
+}
+select {
+  color: #C4C4C4;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #C4C4C4;
 }
 
+option:not(:first-of-type) {
+  color: black;
+}
 .twoform {
   background-color: white;
   display: flex;
@@ -48,15 +60,16 @@ table td {
   display: flex;
   width: 1000%;
   background-color: white;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #F2F2F2;
   padding-bottom: 7px;
   padding-left: 12px;
  
 }
 .text {
-  font-size: 10px;
+  color: blue;
   position: relative;
-  top: 10px;
+ text-align: center;
+ top:15px;
 }
 .maincontainer {
   display: flex;
@@ -65,17 +78,15 @@ table td {
 }
 .DashboardContainer{
 
-  margin-left: 225px;
+  margin-left: 240px;
+  margin-top: -25px;
   width: 100%;
   
 
 }
 .row{
   display: flex;
-
   flex-wrap: wrap;
-
-
 }
 
 .dashboard{
@@ -93,9 +104,13 @@ table td {
   height: 48px;
   margin: 0 5px;
 }
-
-@media screen and (max-width: 576px) {
-  .maincontainer{
-    display: block;
-  }
+.contentText{
+margin-right: auto;
+}
+.divofHeading{
+  display: flex;
+  width: auto;
+}
+.divofmainbutton{
+margin-right: 18px;
 }

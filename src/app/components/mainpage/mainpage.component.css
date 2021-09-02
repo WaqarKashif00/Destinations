@@ -41,9 +41,55 @@
 
   }
 
+.cardheadertext{
+margin-top: 6px;
+  width: auto;
+}
+.maincontainercard{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 0.1fr));
+  grid-gap: auto;
+  grid-column: auto;
+  margin-top: 20px;
+  
+  
+}
+.cardheadertext
+{
+  margin-left: 10px;
+  
+}
+.subcontainercard{
+  margin-left: 20px;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+}
+.iconNumber{
+  display: flex;
+    gap: 16px;
+}
+.iconNumber{
+  margin-left: 10px;
+}
+.iconscircle{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.imageposition{
+  position: relative;
+  top: 12px;
+  left: 13.5px;
+  
+}
+.iconscircle[title="New Signup"]{
+  background-color: #31AF66;
+  opacity: 0.8;
 
-  @media screen and (max-width: 576px) {
-    .maincontainer{
-      display: block;
-    }
-  }
+}
+.iconNumberText{
+font-size: 2px;
+position: relative;
+top: 10px;
+}
